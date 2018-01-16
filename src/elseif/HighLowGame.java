@@ -23,7 +23,7 @@ String t = JOptionPane.showInputDialog("gimme a guess between 1 and 100!");
 			int a =Integer.parseInt(t);
 			// 5. if the guess is correct
 				// 6. win
-			if(a=random) {
+			if(a.equals(random)) {
 				JOptionPane.showMessageDialog(null, "ya win!");
 			}
 			// 7. if the guess is high

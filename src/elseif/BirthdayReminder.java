@@ -16,16 +16,27 @@ public class BirthdayReminder {
 		String myBirthday = "April 16th";
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
-	
+	String BDay = JOptionPane.showInputDialog("Do you want my, my dad's, or my mom's birthday?");
 		// 3. Print out what the user typed
-		
+		System.out.println(BDay);
 		// 4. if user asked for "mom"
 			//print mom's birthday
+		if (BDay.equals("your mom's birthday")) {
+			System.out.println(momsBirthday);
+		}
 		// 5. if user asked for "dad"
 			// print dad's birthday
+		if (BDay.equals("your dad's birthday")) {
+			System.out.println(dadsBirthday);
+		}
 		// 6. if user asked for your name
 			// print myBirthday
+		if (BDay.equals("your birthday")) {
+			System.out.println(myBirthday);
+		}
 		//7. otherwise print "Sorry, i don't remember that person's birthday!"
-
+		else {
+			System.out.println("sorry, I don't remember that birthday!");
+		}
 	} 
 }
