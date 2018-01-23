@@ -28,9 +28,18 @@ import javax.swing.JOptionPane;
 
 public class FizzBuzz {
 public static void main(String[] args) {
-	for(int i=20;i>0;i--) {
-		
-	}
-	JOptionPane.showMessageDialog(null, "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz");
+	for(int i=1;i<21;i++) {
+		if(i%15==0) {
+				System.out.println("fizzbuzz");	
+		}
+		else if(i%3==0) {
+			System.out.println("fizz");}
+		else if(i%5==0) {
+			System.out.println("buzz");
+		}
+		else {
+		System.out.println(i);
+	}}
+	
 }
 }

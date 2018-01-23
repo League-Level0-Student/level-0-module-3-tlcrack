@@ -18,11 +18,11 @@ if(a>3) {
 	JOptionPane.showMessageDialog(null, "YOU'RE A CRAAAaaaAAZY CAT WOMAN!");
 }
 		// 4. If they have 3 or less, call the method below to show them a cat video
-if(a<4) {
+else if(a>0) {
 playVideo("https://www.youtube.com/watch?v=5dsGWM5XGdg");
 }	
 	// 5. If they say 0, show them a video of A Frog Sitting on a Bench Like a Human
-if(a=0) {
+else if(a==0) {
 	playVideo("https://www.youtube.com/watch?v=ZJT9CeEhM10");
 }
 	}
